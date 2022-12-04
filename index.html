@@ -21,7 +21,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="body-info">
+  <body>
     <header class="info">
       <div class="container">
         <a
@@ -30,15 +30,15 @@
           lang="en"
           ><span class="logo-web">Web</span>Studio
         </a>
-        <nav>
-          <ul class="nav-list lists">
-            <li class="item">
-              <a class="active-link selected" href="./index.html">Студія</a>
+        <nav class="nav">
+          <ul class="nav__list lists">
+            <li class="nav__item">
+              <a class="nav__active-link selected" href="./index.html">Студія</a>
             </li>
-            <li class="item">
-              <a class="active-link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__active-link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="item"><a class="active-link" href="№">Контакти</a></li>
+            <li class="nav__item"><a class="nav__active-link" href="№">Контакти</a></li>
           </ul>
         </nav>
         <div class="header-contacts">
@@ -62,59 +62,59 @@
       <!--Hero-->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-txt">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button" type="button" data-modal-open>
+          <h1 class="hero__txt">Ефективні рішення для вашого бізнесу</h1>
+          <button class="hero__button button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
-      <!--Info-->
-      <section class="info-lists">
+      <!--Benefits-->
+      <section class="benefits">
         <div class="container">
-          <ul class="lists">
-            <li class="info-list">
-              <div class="info-icons">
-                <svg class="info-icon" width="70" height="70">
+          <ul class="benefits__lists lists">
+            <li class="benefits__list">
+              <div class="benefits__icons">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h1 class="lists-title">УВАГА ДО ДЕТАЛЕЙ</h1>
-              <p class="lists-txt">
+              <h1 class="benefits__title">УВАГА ДО ДЕТАЛЕЙ</h1>
+              <p class="benefits__txt">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="info-list">
-              <div class="info-icons">
-                <svg class="info-icon" width="70" height="70">
+            <li class="benefits__list">
+              <div class="benefits__icons">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h1 class="lists-title">ПУНКТУАЛЬНІСТЬ</h1>
-              <p class="lists-txt">
+              <h1 class="benefits__title">ПУНКТУАЛЬНІСТЬ</h1>
+              <p class="benefits__txt">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="info-list">
-              <div class="info-icons">
-                <svg class="info-icon" width="70" height="70">
+            <li class="benefits__list">
+              <div class="benefits__icons">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h1 class="lists-title">ПЛАНУВАННЯ</h1>
-              <p class="lists-txt">
+              <h1 class="benefits__title">ПЛАНУВАННЯ</h1>
+              <p class="benefits__txt">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="info-list">
-              <div class="info-icons">
-                <svg class="info-icon" width="70" height="70">
+            <li class="benefits__list">
+              <div class="benefits__icons">
+                <svg class="benefits__icon" width="70" height="70">
                   <use href="./img/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h1 class="lists-title">СУЧАСНІ ТЕХНОЛОГІЇ</h1>
-              <p class="lists-txt">
+              <h1 class="benefits__title">СУЧАСНІ ТЕХНОЛОГІЇ</h1>
+              <p class="benefits__txt">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -125,34 +125,34 @@
       <!--About-->
       <section class="about">
         <div class="container">
-          <h1 class="about-title">Чим ми займаємося</h1>
-          <ul class="about-lists lists">
-            <li class="about-list">
+          <h1 class="about__title">Чим ми займаємося</h1>
+          <ul class="about__lists lists">
+            <li class="about__list">
               <img
-                class="about-img"
+                class="about__img"
                 src="./img/about1.jpg"
                 alt="development"
                 width="370"
               />
-              <div class="abut-discription">Десктопні додатки</div>
+              <div class="abut__discription">Десктопні додатки</div>
             </li>
-            <li class="about-list">
+            <li class="about__list">
               <img
-                class="about-img"
+                class="about__img"
                 src="./img/about2.jpg"
                 alt="serch"
                 width="370"
               />
-              <div class="abut-discription">Мобільні додатки</div>
+              <div class="abut__discription">Мобільні додатки</div>
             </li>
-            <li class="about-list">
+            <li class="about__list">
               <img
-                class="about-img"
+                class="about__img"
                 src="./img/about3.jpg"
                 alt="design"
                 width="370"
               />
-              <div class="abut-discription">Дизайнерські рішення</div>
+              <div class="abut__discription">Дизайнерські рішення</div>
             </li>
           </ul>
         </div>
@@ -161,11 +161,11 @@
       <section class="team">
         <div class="container">
           <h1 class="title-text">Наша команда</h1>
-          <ul class="team-container lists">
-            <li class="team-info">
-              <div class="team-item">
+          <ul class="team__container lists">
+            <li class="team__info">
+              <div class="team__item">
                 <img
-                  class="team-img"
+                  class="team__img"
                   src="./img/Igor.jpg"
                   alt="Igor Demianenko"
                   width="270"
@@ -204,10 +204,10 @@
                 </ul>
               </div>
             </li>
-            <li class="team-info">
-              <div class="team-item">
+            <li class="team__info">
+              <div class="team__item">
                 <img
-                  class="team-img"
+                  class="team__img"
                   src="./img/Olga.jpg"
                   alt="Olga Repina"
                   width="270"
@@ -246,10 +246,10 @@
                 </ul>
               </div>
             </li>
-            <li class="team-info">
-              <div class="team-item">
+            <li class="team__info">
+              <div class="team__item">
                 <img
-                  class="team-img"
+                  class="team__img"
                   src="./img/Mykola.jpg"
                   alt="Mykola Tarasov"
                   width="270"
@@ -288,10 +288,10 @@
                 </ul>
               </div>
             </li>
-            <li class="team-info">
-              <div class="team-item">
+            <li class="team__info">
+              <div class="team__item">
                 <img
-                  class="team-img"
+                  class="team__img"
                   src="./img/Myhailo.jpg"
                   alt="Myhailo Yermakov"
                   width="270"
